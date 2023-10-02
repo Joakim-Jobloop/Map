@@ -1,0 +1,25 @@
+.map():
+Purpose: The primary purpose of the .map() method is to create a new array by applying a function to each element of the original array.
+
+Return Value: It returns a new array containing the results of applying the provided function to each element of the original array. The original array remains unchanged.
+
+
+const numbers = [1, 2, 3, 4, 5];
+const doubledNumbers = numbers.map((number) => number * 2);
+// doubledNumbers is [2, 4, 6, 8, 10]
+
+
+
+.forEach():
+
+Purpose: The .forEach() method is used for iterating over the elements of an array and performing an action or side effect for each element. It does not create a new array or return anything.
+
+Return Value: It does not return anything; it always returns undefined.
+
+Example:
+
+javascript
+Copy code
+const numbers = [1, 2, 3, 4, 5];
+numbers.forEach((number) => console.log(number));
+// This will log each number to the console but doesn't create a new array.
